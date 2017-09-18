@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E55EC31A1F7089BA0020F773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55EC3191F7089BA0020F773 /* AppDelegate.swift */; };
+		E55EC31C1F7089BA0020F773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55EC31B1F7089BA0020F773 /* ViewController.swift */; };
+		E55EC31F1F7089BA0020F773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55EC31D1F7089BA0020F773 /* Main.storyboard */; };
+		E55EC3221F7089BA0020F773 /* Bip_Guy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55EC3201F7089BA0020F773 /* Bip_Guy.xcdatamodeld */; };
+		E55EC3241F7089BA0020F773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55EC3231F7089BA0020F773 /* Assets.xcassets */; };
+		E55EC3271F7089BA0020F773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55EC3251F7089BA0020F773 /* LaunchScreen.storyboard */; };
+		E55EC3321F7089BA0020F773 /* Bip_GuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55EC3311F7089BA0020F773 /* Bip_GuyTests.swift */; };
+		E55EC33D1F7089BA0020F773 /* Bip_GuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55EC33C1F7089BA0020F773 /* Bip_GuyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55EC32E1F7089BA0020F773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55EC30E1F7089BA0020F773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55EC3151F7089BA0020F773;
+			remoteInfo = "Bip Guy";
+		};
+		E55EC3391F7089BA0020F773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55EC30E1F7089BA0020F773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55EC3151F7089BA0020F773;
+			remoteInfo = "Bip Guy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E55EC3161F7089BA0020F773 /* Bip Guy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bip Guy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55EC3191F7089BA0020F773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E55EC31B1F7089BA0020F773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E55EC31E1F7089BA0020F773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E55EC3211F7089BA0020F773 /* Bip_Guy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bip_Guy.xcdatamodel; sourceTree = "<group>"; };
+		E55EC3231F7089BA0020F773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E55EC3261F7089BA0020F773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E55EC3281F7089BA0020F773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55EC32D1F7089BA0020F773 /* Bip GuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip GuyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55EC3311F7089BA0020F773 /* Bip_GuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_GuyTests.swift; sourceTree = "<group>"; };
+		E55EC3331F7089BA0020F773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55EC3381F7089BA0020F773 /* Bip GuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip GuyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55EC33C1F7089BA0020F773 /* Bip_GuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_GuyUITests.swift; sourceTree = "<group>"; };
+		E55EC33E1F7089BA0020F773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E55EC3131F7089BA0020F773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EC32A1F7089BA0020F773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EC3351F7089BA0020F773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E55EC30D1F7089BA0020F773 = {
+			isa = PBXGroup;
+			children = (
+				E55EC3181F7089BA0020F773 /* Bip Guy */,
+				E55EC3301F7089BA0020F773 /* Bip GuyTests */,
+				E55EC33B1F7089BA0020F773 /* Bip GuyUITests */,
+				E55EC3171F7089BA0020F773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E55EC3171F7089BA0020F773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E55EC3161F7089BA0020F773 /* Bip Guy.app */,
+				E55EC32D1F7089BA0020F773 /* Bip GuyTests.xctest */,
+				E55EC3381F7089BA0020F773 /* Bip GuyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E55EC3181F7089BA0020F773 /* Bip Guy */ = {
+			isa = PBXGroup;
+			children = (
+				E55EC3191F7089BA0020F773 /* AppDelegate.swift */,
+				E55EC31B1F7089BA0020F773 /* ViewController.swift */,
+				E55EC31D1F7089BA0020F773 /* Main.storyboard */,
+				E55EC3231F7089BA0020F773 /* Assets.xcassets */,
+				E55EC3251F7089BA0020F773 /* LaunchScreen.storyboard */,
+				E55EC3281F7089BA0020F773 /* Info.plist */,
+				E55EC3201F7089BA0020F773 /* Bip_Guy.xcdatamodeld */,
+			);
+			path = "Bip Guy";
+			sourceTree = "<group>";
+		};
+		E55EC3301F7089BA0020F773 /* Bip GuyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E55EC3311F7089BA0020F773 /* Bip_GuyTests.swift */,
+				E55EC3331F7089BA0020F773 /* Info.plist */,
+			);
+			path = "Bip GuyTests";
+			sourceTree = "<group>";
+		};
+		E55EC33B1F7089BA0020F773 /* Bip GuyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E55EC33C1F7089BA0020F773 /* Bip_GuyUITests.swift */,
+				E55EC33E1F7089BA0020F773 /* Info.plist */,
+			);
+			path = "Bip GuyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E55EC3151F7089BA0020F773 /* Bip Guy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55EC3411F7089BA0020F773 /* Build configuration list for PBXNativeTarget "Bip Guy" */;
+			buildPhases = (
+				E55EC3121F7089BA0020F773 /* Sources */,
+				E55EC3131F7089BA0020F773 /* Frameworks */,
+				E55EC3141F7089BA0020F773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bip Guy";
+			productName = "Bip Guy";
+			productReference = E55EC3161F7089BA0020F773 /* Bip Guy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E55EC32C1F7089BA0020F773 /* Bip GuyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55EC3441F7089BA0020F773 /* Build configuration list for PBXNativeTarget "Bip GuyTests" */;
+			buildPhases = (
+				E55EC3291F7089BA0020F773 /* Sources */,
+				E55EC32A1F7089BA0020F773 /* Frameworks */,
+				E55EC32B1F7089BA0020F773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55EC32F1F7089BA0020F773 /* PBXTargetDependency */,
+			);
+			name = "Bip GuyTests";
+			productName = "Bip GuyTests";
+			productReference = E55EC32D1F7089BA0020F773 /* Bip GuyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E55EC3371F7089BA0020F773 /* Bip GuyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55EC3471F7089BA0020F773 /* Build configuration list for PBXNativeTarget "Bip GuyUITests" */;
+			buildPhases = (
+				E55EC3341F7089BA0020F773 /* Sources */,
+				E55EC3351F7089BA0020F773 /* Frameworks */,
+				E55EC3361F7089BA0020F773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55EC33A1F7089BA0020F773 /* PBXTargetDependency */,
+			);
+			name = "Bip GuyUITests";
+			productName = "Bip GuyUITests";
+			productReference = E55EC3381F7089BA0020F773 /* Bip GuyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E55EC30E1F7089BA0020F773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Krameisen;
+				TargetAttributes = {
+					E55EC3151F7089BA0020F773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					E55EC32C1F7089BA0020F773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E55EC3151F7089BA0020F773;
+					};
+					E55EC3371F7089BA0020F773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E55EC3151F7089BA0020F773;
+					};
+				};
+			};
+			buildConfigurationList = E55EC3111F7089BA0020F773 /* Build configuration list for PBXProject "Bip Guy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E55EC30D1F7089BA0020F773;
+			productRefGroup = E55EC3171F7089BA0020F773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E55EC3151F7089BA0020F773 /* Bip Guy */,
+				E55EC32C1F7089BA0020F773 /* Bip GuyTests */,
+				E55EC3371F7089BA0020F773 /* Bip GuyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E55EC3141F7089BA0020F773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55EC3271F7089BA0020F773 /* LaunchScreen.storyboard in Resources */,
+				E55EC3241F7089BA0020F773 /* Assets.xcassets in Resources */,
+				E55EC31F1F7089BA0020F773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EC32B1F7089BA0020F773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EC3361F7089BA0020F773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E55EC3121F7089BA0020F773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55EC31C1F7089BA0020F773 /* ViewController.swift in Sources */,
+				E55EC31A1F7089BA0020F773 /* AppDelegate.swift in Sources */,
+				E55EC3221F7089BA0020F773 /* Bip_Guy.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EC3291F7089BA0020F773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55EC3321F7089BA0020F773 /* Bip_GuyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EC3341F7089BA0020F773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55EC33D1F7089BA0020F773 /* Bip_GuyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E55EC32F1F7089BA0020F773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55EC3151F7089BA0020F773 /* Bip Guy */;
+			targetProxy = E55EC32E1F7089BA0020F773 /* PBXContainerItemProxy */;
+		};
+		E55EC33A1F7089BA0020F773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55EC3151F7089BA0020F773 /* Bip Guy */;
+			targetProxy = E55EC3391F7089BA0020F773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E55EC31D1F7089BA0020F773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55EC31E1F7089BA0020F773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E55EC3251F7089BA0020F773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55EC3261F7089BA0020F773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E55EC33F1F7089BA0020F773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E55EC3401F7089BA0020F773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E55EC3421F7089BA0020F773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D4JNP6C44;
+				INFOPLIST_FILE = "Bip Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.Bip-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E55EC3431F7089BA0020F773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D4JNP6C44;
+				INFOPLIST_FILE = "Bip Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.Bip-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E55EC3451F7089BA0020F773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D4JNP6C44;
+				INFOPLIST_FILE = "Bip GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.Bip-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip Guy.app/Bip Guy";
+			};
+			name = Debug;
+		};
+		E55EC3461F7089BA0020F773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D4JNP6C44;
+				INFOPLIST_FILE = "Bip GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.Bip-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip Guy.app/Bip Guy";
+			};
+			name = Release;
+		};
+		E55EC3481F7089BA0020F773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D4JNP6C44;
+				INFOPLIST_FILE = "Bip GuyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.Bip-GuyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bip Guy";
+			};
+			name = Debug;
+		};
+		E55EC3491F7089BA0020F773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D4JNP6C44;
+				INFOPLIST_FILE = "Bip GuyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krameisen.Bip-GuyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bip Guy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E55EC3111F7089BA0020F773 /* Build configuration list for PBXProject "Bip Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55EC33F1F7089BA0020F773 /* Debug */,
+				E55EC3401F7089BA0020F773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55EC3411F7089BA0020F773 /* Build configuration list for PBXNativeTarget "Bip Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55EC3421F7089BA0020F773 /* Debug */,
+				E55EC3431F7089BA0020F773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55EC3441F7089BA0020F773 /* Build configuration list for PBXNativeTarget "Bip GuyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55EC3451F7089BA0020F773 /* Debug */,
+				E55EC3461F7089BA0020F773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55EC3471F7089BA0020F773 /* Build configuration list for PBXNativeTarget "Bip GuyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55EC3481F7089BA0020F773 /* Debug */,
+				E55EC3491F7089BA0020F773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E55EC3201F7089BA0020F773 /* Bip_Guy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E55EC3211F7089BA0020F773 /* Bip_Guy.xcdatamodel */,
+			);
+			currentVersion = E55EC3211F7089BA0020F773 /* Bip_Guy.xcdatamodel */;
+			path = Bip_Guy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E55EC30E1F7089BA0020F773 /* Project object */;
+}
